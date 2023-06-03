@@ -1,6 +1,6 @@
-{{! Завдання 1. Зробіть , щоб HTML документ мав білий фон  , використовуйте Root селектор}}
+{{! Завдання 1. Зробіть , щоб HTML документ мав білий фон , використовуйте Root селектор}}
 
-{{! Завдання 2. Зробіть, щоб всі елементи на сторінці мали текст чорного кольору  }}
+{{! Завдання 2. Зробіть, щоб всі елементи на сторінці мали текст чорного кольору }}
 
 <body>
   {{! Завдання 3. Зробіть, щоб h1 мав Синій колір фону }}
@@ -9,12 +9,12 @@
     <div class='card-header'>Завдання 3</div>
     <div class='card-body'>
       <div>
-        <h1>Синій колір</h1>
+        <h1 style="color: black">Синій колір</h1>
       </div>
     </div>
   </section>
 
-  {{! Завдання 4. Зробіть, щоб клас green мав текст зеленого кольору  }}
+  {{! Завдання 4. Зробіть, щоб клас green мав текст зеленого кольору }}
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 4</div>
@@ -36,7 +36,7 @@
     </div>
   </section>
 
-  {{! Завдання 6. Зробіть, щоб тег p мав червоний фон ,а тег div мав зелений фон  }}
+  {{! Завдання 6. Зробіть, щоб тег p мав червоний фон ,а тег div мав зелений фон }}
   {{! Тут вам потрібно використовувати Селектор нащадка }}
 
   <section class='m-5 card'>
@@ -47,7 +47,7 @@
           <div>
             Контент коробки
           </div>
-          <p>
+          <p id="server">
             Server
           </p>
         </div>
@@ -55,7 +55,7 @@
     </div>
   </section>
 
-  {{! Завдання 7. Задайте класу brown коричневий фон та білий колір тексту, використовуйте селектор класу  }}
+  {{! Завдання 7. Задайте класу brown коричневий фон та білий колір тексту, використовуйте селектор класу }}
 
   <section class='m-5 card'>
     <div class='card-header'>Завдання 7</div>
@@ -75,7 +75,7 @@
     <div class='card-header'>Завдання 8</div>
     <div class='card-body'>
       <div>
-        <ul>
+        <ul id="red">
           <li>Елемент 1</li>
           <li>Елемент 2</li>
           <li>Елемент 3</li>
@@ -136,7 +136,7 @@
     <div class='card-header'>Завдання 1</div>
     <div class='card-body'>
       <div class='first-task'>
-        <ul>
+        <ul id="white">
           <li>Елемент 1</li>
           <li>Елемент 2</li>
           <li>Елемент 3</li>
@@ -153,12 +153,12 @@
     <div class='card-header'>Завдання 2</div>
     <div class='card-body'>
       <div class='second-task'>
-        <ul>
+        <ul id="yellow">
           <li>Елемент 1</li>
           <li>Елемент 2</li>
         </ul>
 
-        <ul>
+        <ul id="yellow">
           <li>Елемент 1</li>
           <li>Елемент 2</li>
         </ul>
@@ -178,7 +178,7 @@
           <li>Елемент 2</li>
         </ul>
 
-        <ul>
+        <ul id="fon">
           <li>Елемент 1</li>
           <li>Елемент 2</li>
         </ul>
@@ -193,7 +193,7 @@
     <div class='card-header'>Завдання 4</div>
     <div class='card-body'>
       <div class='four-task'>
-        <ul>
+        <ul id="last">
           <li>Елемент 1</li>
           <li>Елемент 2</li>
         </ul>
@@ -213,7 +213,7 @@
           <li>Елемент 2</li>
         </ul>
 
-        <ul>
+        <ul id="text">
           <li>Елемент 1</li>
           <li>Елемент 2</li>
         </ul>
@@ -312,7 +312,7 @@
         <nav>
           <ul>
             <li><a>Головна</a></li>
-            <li><a href='/products'>Продукти</a></li>
+            <li><a href='/products' rel='external'>Продукти</a></li>
             <li><a href='/services'>Послуги</a></li>
             <li><a href='/about'>Про нас</a></li>
             <li><a href='/contact'>Контакти</a></li>
@@ -429,15 +429,20 @@
       <div class='lesson-three-task-eight'>
         <ul>
           <li>
-            <span class='tag t'>tag t</span></li>
+            <span class='tag t'>tag t</span>
+          </li>
           <li>
-            <span class='tag s'>tag s</span></li>
+            <span class='tag s'>tag s</span>
+          </li>
           <li>
-            <span class='tag'>tag</span></li>
+            <span class='tag'>tag</span>
+          </li>
           <li>
-            <span class='tag s'>tag s</span></li>
+            <span class='tag s'>tag s</span>
+          </li>
           <li>
-            <span class='tag r'>tag r</span></li>
+            <span class='tag r'>tag r</span>
+          </li>
         </ul>
       </div>
     </div>

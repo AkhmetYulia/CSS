@@ -1,0 +1,144 @@
+:root {
+background: white;
+}
+
+*{
+color: black;
+}
+
+h1 {
+    background: blue;
+}
+
+.green{
+color: green;
+}
+
+#blue{
+color: blue;
+}
+
+.box{
+    background: green;
+}
+
+div > p#server{
+    background: red;
+}
+
+.brown{
+    background: brown;
+    color: white;
+}
+
+ul#red>li{
+    background: red;
+}
+
+button+span{
+    background: red;
+}
+
+p.susid~*{
+    background: blue;
+    color: white;
+}
+
+.salo{
+    background: yellow;
+}
+#bread{
+    background: yellow;
+}
+
+#white>li:first-child{
+    color: white;
+}
+
+#yellow>li:first-child{
+    color: yellow;
+}
+
+#fon>li:first-child{
+    background: yellow;
+}
+
+#last>li:last-child{
+    background: yellow;
+}
+
+#text>li:last-child{
+    color: white
+}
+
+.only-child-task>div:only-child{
+    color: red;
+}
+
+.seven-task>p:first-of-type{
+    background: red;
+}
+
+.eight-task>span:last-of-type{
+    background: red;
+}
+
+.text-wrapper>p:only-of-type{
+    background: yellow;
+}
+
+.lesson-three-task-one>a[rel~='external']{
+    color: white;
+}
+
+.lesson-three-task-two>li[value='1']{
+    color: yellow;
+}
+
+
+.lesson-three-task-three>li:nth-child(3){
+   background: red;
+}
+
+.lesson-three-task-four>button[class='primary action']{
+    background: blue;
+}
+
+.lesson-three-task-five>button[class|='secondary']{
+    background: red;
+}
+
+.lesson-three-task-six>ul>li[class^='b']{
+    background: white;
+    color: green;
+}
+
+.lesson-three-task-seven>ul>li[class*='on']{
+    background: white;
+    color: green;
+}
+
+.lesson-three-task-eight>ul>li>span[class$='s']{
+    background: white;
+    color: blue;
+}
+
+.lesson-three-task-nine>h2::first-letter{
+    color: red;
+}
+
+.lesson-three-task-ten>p::first-line{
+    background: yellow;
+}
+
+.lesson-three-task-eleven>input::placeholder{
+    background: red;
+}
+
+.lesson-three-task-twelve>ul>li::before{
+    content: "➤";
+}
+
+.lesson-three-task-thirteen>ul>li::after{
+    content: "➤";
+}
